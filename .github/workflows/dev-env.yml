@@ -52,4 +52,3 @@ jobs:
     steps:
       - name: Acceptance Test
         run: curl http://bookinfo.dev.opsta.net/student31/ratings/health | grep "Ratings is working"
-        
